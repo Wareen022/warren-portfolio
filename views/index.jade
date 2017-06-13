@@ -1,0 +1,189 @@
+doctype html
+html.js.flexbox.flexboxlegacy.canvas.canvastext.webgl.no-touch.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+  head
+    title Warren's Portfolio
+    link(rel='stylesheet', href='./stylesheets/style.css')
+    link(rel='stylesheet', href='./stylesheets/reset.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css')
+    link(rel='stylesheet', href='./stylesheets/font-awesome-min.css')
+    script(src='./js/jquery.min.js')
+    script(src='./js/modernizr-2.8.3-respond-1.4.2.min.js')
+    script(src='./js/main.js')
+  body
+    #portfolio
+      div
+        header.shadow.header-color
+          #header-content
+            h2.white Every student can learn, just not on the same day, or the same way.
+            p.white - George Evans
+          #about-me
+            br
+            img#image(src='img/warren.jpg')
+            h2.title.title-appr Warren Mae A. Bernabe
+            p.subtitle Frontend Web Developer
+            #about-me-content
+              p
+                | I am a fresh graduate of Bs Computer Engineering. Is a keen observer to detail and goal-focused individual. I am more into challenge where I could learn more and I tend to evaluate my personal development to stay on the line of software development. As of now, am looking for a job where I could enhance my skills and talent in the field of web designing, development and graphic and on the other hand I am willing to commit my time and effort in the project of the company where I am into.
+              #iconHeader
+                a.ui.facebook.button(href='https://web.facebook.com/ariien022')
+                  i.facebook.icon(aria-hidden='true')
+                  | 							 Facebook
+                a.ui.twitter.button(href='https://twitter.com/pataaaygutom')
+                  i.twitter.icon
+                  |                                 Twitter
+                a.ui.instagram.button(href='https://www.instagram.com/waaaaaaarren/?hl=en')
+                  i.instagram.icon
+                  |                                 Instagram
+        div
+          #header-education
+            .center-title.width-title
+              p#content-title EDUCATION
+          div
+            section#cd-timeline.cd-container
+              .cd-timeline-block
+                .cd-timeline-img.cd-picture
+                .cd-timeline-content
+                  h2 Polytechnic University of the Philippines
+                  h4 Bachelor of Science in Computer Engineering
+                  span.cd-date.black 2012-2017
+              .cd-timeline-block
+                .cd-timeline-img.cd-movie
+                .cd-timeline-content
+                  h2 Potter's Hand Christian Academy
+                  span.cd-date.black 2008 - 2012
+          #second
+            .center-title.width-modified
+              p#content-title DESINGER. DREAMER. CREATOR
+          #skills
+            .ui.container
+              .ui.two.column.grid
+                .column
+                  .ui.raised.segment
+                    .prog
+                      .ui.progress
+                        .bar(style='width: 80%;')
+                        .label HTML
+                      .ui.progress
+                        .bar(style='width: 80%;')
+                        .label CSS
+                      .ui.progress
+                        .bar(style='width: 50%;')
+                        .label JavaScript
+                      .ui.progress
+                        .bar(style='width: 40%;')
+                        .label PHP
+                .column
+                  .ui.segment
+                    .prog
+                      .ui.progress
+                        .bar(style='width: 100%;')
+                        .label Commited
+                      .ui.progress
+                        .bar(style='width: 90%;')
+                        .label Punctual
+                      .ui.progress
+                        .bar(style='width: 60%;')
+                        .label Communicative
+                      .ui.progress
+                        .bar(style='width: 70%;')
+                        .label Analytical Skill
+          #second
+            .center-title.width-title
+              p#content-title EXPERIENCE
+          div
+            section#cd-timeline.cd-container
+              .cd-timeline-block
+                .cd-timeline-img.cd-picture
+                .cd-timeline-content
+                  h2 Benmark Group Holdings, Inc.
+                  h4 Tasks
+                  p
+                    | Was assigned in the IT Department to help the team in maintaning the connection of the
+                    | Finance Department, Accounting Department and HR Department. Taught about how to crimp
+                    | rj-45 to LAN cable and maintain the connection of the company's business partner to the main server
+                  span.cd-date.black March - June 2015
+              .cd-timeline-block
+                .cd-timeline-img.cd-movie
+                .cd-timeline-content
+                  h2 SANDZ Solutions Philippines
+                  h4 Tasks
+                  p
+                    | Worked with the Disaster Recovery team in archiving, backup and restore, implement disaster recovery,
+                    | and in checking for data availability for client’s business critical data whenever they need it.
+                    | Was taught on how to use VMware and also manipulate how the cloud back up function for every client.
+                  span.cd-date.black March-June 2016
+          #second
+            .center-title.width-title
+              p#content-title PORTFOLIO
+          #skills
+            .ui.container
+              .ui.three.column.grid
+                .column
+                  .ui.card
+                    .ui.move.up.reveal
+                      .ui.content
+                        img.ui.large.image(src='img/jb.png')
+                    .content
+                      .header  Jilly Beans Party Services 
+                      .meta Role: UI and FrontEnd Developer
+                      .description
+                        | Developed using Jade, CSS, ExpressJS and NodeJS. It is a website that offers
+                        | party services and let users send inquiries.
+                    .extra.content
+                      .ui.two.buttons
+                        a.fullWidth(href='https://coen3463-m2t15.herokuapp.com/')
+                          button.ui.primary.button.inh Visit
+                .column
+                  .ui.card
+                    .ui.move.up.reveal
+                      .ui.content
+                        img.ui.large.image(src='img/cpe.png')
+                    .content
+                      .header Laboratory Inventory System 
+                      .meta Role: UI Developer
+                      .description
+                        | Developed using Jade, Bootstrap CSS, ExpressJS and NodeJS and React. It serves as a real time viewer for CpE laboratory inventory.
+                    .extra.content
+                      .ui.two.buttons
+                        a.fullWidth(href='https://finalproject-team15.herokuapp.com/')
+                          button.ui.primary.button.inh Visit
+                .column
+                  .ui.card
+                    .ui.move.up.reveal
+                      .ui.content
+                        img.ui.large.image(src='img/cpe-career.png')
+                    .content
+                      .header  CpE Career
+                      .meta Role: UI Developer
+                      .description
+                        | Developed using HTML, Bootstrap CSS, and Wordpress. A system that provide easy and convenient way of finding internship programs to different companies that suits their skill.
+                    .extra.content
+                      .ui.two.buttons
+                        a.fullWidth(href='http://cpecareer.com/')
+                          button.ui.primary.button.inh Visit
+          .footerx
+            .ui.container
+              .ui.two.column.grid
+                .column.border_right
+                  .ui.list.footWidth(role='list')
+                    h1.footh1 Contact Me:
+                    .item(role='listitem')
+                      i.grey.users.icon(aria-hidden='true')
+                      .content(color='grey') Warren Bernabe
+                    .item(role='listitem')
+                      i.grey.marker.icon(aria-hidden='true')
+                      .content(color='grey') Antipolo, PH
+                    .item(role='listitem')
+                      i.grey.mail.icon(aria-hidden='true')
+                      .content(color='grey')
+                        a(href='mailto:ren22430@gmail.com') ren22430@gmail.com
+                    .item(role='listitem')
+                      i.grey.linkify.icon(aria-hidden='true')
+                      .content(color='grey')
+                        a(href='https://github.com/Wareen022') github.com/Wareen022
+                .column
+                  .ui.list.footWidth(role='list')
+                    h1.footh1 All Rights Reserved
+                    .item(role='listitem')
+                      i.grey.users.icon(aria-hidden='true')
+                      .content(color='grey') 2017
